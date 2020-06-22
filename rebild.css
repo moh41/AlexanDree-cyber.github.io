@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+main#index {
+	width: 100%;
+	height: 100vh;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('images/singularity.jpg');
+	}
+
+main#index .above-index {
+	width: 100%;
+	height: 100%;
+	background: radial-gradient( rgba(0,0,0,0.0), rgba(0,0,0) );
+}
+
+main header {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+header .logo-header h2 {
+	font-size: 2.4rem;
+	color: white;
+	padding: 0;
+}
+
+section.title-btn {
+	width: 100%;
+	height: calc(100vh - 131px);
+}
+
+div.title, div.btn {
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	height: 50%;
+}
+
+div.title {
+	align-items: center;
+}
+
+div.title h1 {
+	color: white;
+	font-size: 3.8rem;
+	font-weight: normal;
+	text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+}
+
+div.btn {
+	padding: 50px 0;
+	align-items: flex-start;
+}
+
+div.btn button {
+	cursor: pointer;
+	color: white;
+	width: 220px;
+	padding: 20px 0;
+	outline: 0;
+	border: 0;
+	border-radius: 10px;
+	font-size: 2.4rem;
+	text-align: center;
+	background: rgb(34,246,5);
+	background: linear-gradient(90deg, rgba(34,246,5,1) 0%, rgba(102,237,43,1) 68%, rgba(233,251,7,1) 100%);
+	box-shadow: 3px 3px 30px rgba(0,0,0,0.9);
+	transition: transform 0.5s;
+}
+
+button:hover {
+	transform: scale(0.97);
+}
+
+footer {
+	width: 100%;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	background: rgb(10,10,10);
+}
+
+footer p {
+	font-size: 1.8rem;
+}
+
+
+
+
+/*form {...} */
+
+
+
+form#form {
+	width: 100%;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('images/singularity.jpg');
+}
+
+form#form .container {
+	padding: 40px 0;
+} 
+
+form#form .above-form {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right bottom, white, rgba(0,0,0,0.1));
+}
+
+form#form .form-content {
+	width: 550px;
+	margin: 0 auto;
+	padding: 0 30px;
+	text-align: center;
+	border-radius: 10px;
+	background: rgb(240,240,240);
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+}
+
+section.form-content header {
+	width: 100%;
+	padding: 20px 0 0px 0;
+}
+
+header.header-form span {
+	display: block;
+	width: 100px;
+	height: 1.5px;
+	margin-top: 5px;
+	margin: 0 auto;
+	background: rgb(34,246,5);
+	background: linear-gradient(90deg, rgba(34,246,5,1) 0%, rgba(102,237,43,1) 68%, rgba(233,251,7,1) 100%);
+}
+
+header .logo-h-form h2 {
+	font-size: 2.4rem;
+	color: rgb(70,70,70);
+}
+
+section.form-content .title-form {
+	width: 100%;
+	padding: 30px 0;
+}
+
+div.title-form h1 {
+	font-size: 3.4rem;
+	font-weight: normal;
+	color: rgb(50,50,50);
+}
+
+section.form-content main.input-form {
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+
+}
+
+main.input-form input {
+	width: 100%;
+	padding: 30px 0;
+	margin: 0 0 50px 0;
+	text-align: center;
+	font-size: 1.6rem;
+	outline: 0;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+	background: rgb(230,230,230);
+}
+
+main.input-form button {
+	cursor: pointer;
+	color: white;
+	width: 220px;
+	padding: 20px 0;
+	outline: 0;
+	border: 0;
+	border-radius: 5px;
+	font-size: 2.4rem;
+	text-align: center;
+	background: rgb(34,246,5);
+	background: linear-gradient(90deg, rgba(34,246,5,1) 0%, rgba(102,237,43,1) 68%, rgba(233,251,7,1) 100%);
+	transition: transform 0.5s;
+}
+
+button:hover {
+	font-size: 2.4rem;
+	transform: scale(0.95);
+}
+
+@media screen and (max-width: 420px) {
+	
+}
